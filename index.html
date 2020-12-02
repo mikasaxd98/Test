@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="https://kit.fontawesome.com/fd3fb4c384.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+    
+   
+    <title>Document</title>
+</head>
+
+
+
+<body>
+
+<form action="" id="form0">
+    <div class="col-8" style="border:2px solid #e3e3e3; margin-left: auto; margin-right: auto; border-radius: 3px; margin-top: 20px;">
+        <div class="row">
+            <div class="col-9">
+                <div class="text">
+                    <h4 class="h4-margin">Search people by filters</h4>
+                </div>
+            </div>
+            <div class="col-3 text-right">
+                <div>
+                    <i class="fas btn-close fa-times"></i>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-xl-2 input-margin">
+                <div class="text">User Id</div>
+                <div>
+                    <input class="form-control" type="text" id="UserId" name="UserId">
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-xl-2 input-margin">
+                <div class="text">Phone</div>
+                <div>
+                    <input  class="form-control"  id="Phone" name="Phone">
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-xl-2 input-margin">
+                <div class="text">Name,Surname</div>
+                <div>
+                    <input class="form-control" type="text" id="NameSurName" name="NameSurName">
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-xl-2 input-margin">
+                <div class="text">Superviser</div>
+                <div>
+                   <select class="form-control" name="Superviser" id="Superviser">
+                       <option value="">All</option>
+                       <option value="John">John</option>
+                       <option value="George">George</option>
+                       <option value="Fred">Fred</option>
+                   </select>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-xl-2 input-margin">
+                <div class="icon"><i class="far fa-calendar-plus"></i></div>
+                <div class="text icon-text">Added</div>
+                <div class="input-group">
+                    <input class="form-control" id="added-calendar" name="addedCalendar">
+                    <div class="input-group-append">
+                      <label class="input-group-text" for="added-calendar"><i class="far fa-calendar-alt"></i></label>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-xl-2 input-margin">
+                <div class="icon"><i class="fas fa-birthday-cake"></i></div>
+                <div class="text icon-text">Birthday</div>
+                <div class="input-group">
+                    <input class="form-control" id="birthday-calendar" name="birthdayCalendar">
+                    <div class="input-group-append">
+                      <label class="input-group-text" for="birthday-calendar"><i class="far fa-calendar-alt"></i></label>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-xl-3 input-margin">
+                <div class="text">Status</div>
+                <div>
+                    <input  class="form-control" type="text" id="Status" name="Status">
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-xl-3 input-margin">
+                <div class="text">Department</div>
+                <div>
+                    <input class="form-control" type="text" id="Department" name="Department">
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-xl-6 input-margin d-lg-none d-xl-block">
+               
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-xl-2" style="margin:10px 0 ">
+                <div>
+                <button class="btn-block btn btn-danger text-center" type="submit">
+                    <i class="d-none d-sm-inline icon-search fas fa-search"></i>
+                    Search
+                </button>
+            </div>
+            </div>
+
+       
+
+    </div>
+</form>
+
+
+<script src="script/script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

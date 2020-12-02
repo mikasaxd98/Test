@@ -1,0 +1,107 @@
+.text {
+    font-family: Circe-Light, "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    color: #2d3947;
+    line-height: 1.346;
+    text-align: left;
+}
+
+.container {
+
+    border: 1px solid grey;
+
+}
+
+label {
+
+    display: block;
+}
+
+input {
+    width: 100%;
+}
+
+input:focus {
+    border-color: #ec6665 !important;
+    box-shadow: 0 0 0 0.1rem #ec6665 !important;
+}
+
+select {
+    width: 100%;
+}
+
+select:focus {
+
+    border-color: #ec6665 !important;
+    box-shadow: 0 0 0 0.1rem #ec6665 !important;
+}
+
+.btn-danger {
+    background-color: #ec6665;
+    border-color: #ec6665;
+
+}
+
+.btn-danger:hover {
+    background-color: #eb5b5b;
+    border-color: #eb5b5b
+}
+
+.btn-danger:active {
+    background-color: #eb5b5b !important;
+    border-color: #eb5b5b !important;
+
+}
+
+.btn-danger:focus {
+    background-color: #eb5b5b;
+    border-color: #eb5b5b
+}
+
+.input-margin {
+    margin-top: 15px;
+}
+
+.h4-margin {
+
+    margin-top: 10px;
+
+}
+
+.btn {
+    font-family: Circe-Light, "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    line-height: 1.346;
+    text-align: left;
+}
+
+i {
+
+    color: #b8b8b8;
+}
+
+.icon {
+    display: inline;
+}
+
+.icon-text {
+    display: inline;
+
+}
+
+.icon-search {
+
+    color: white;
+
+}
+
+div.error {
+
+    background-color: #ec6665;
+    border-radius: 3px;
+    color: white;
+    padding-left: 3px;
+}
+
+.btn-close{
+
+    cursor: pointer;
+}
